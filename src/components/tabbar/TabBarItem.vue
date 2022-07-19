@@ -30,9 +30,6 @@ export default {
   },
   computed:{
 isActive(){
-  console.log(this.$route.path)
-  console.log(this.$router)
-  console.log(this.path)
   return  this.$route.path.indexOf(this.path)==1
 },
     isActiveStyle(){
